@@ -31,4 +31,4 @@ Você pode acessar o projeto através <a href="https://to-do-list-william-progra
 
 ## Licença
 
-A licença desse projeto pode ser acessada <a href="" target="_blank">aqui</a>
+A licença desse projeto pode ser acessada <a href="https://github.com/William-AViana/todo-list-javaScript/blob/main/LICENSE" target="_blank">aqui</a>
