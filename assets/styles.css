@@ -10,46 +10,55 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-  color: rgb(46, 46, 46);
-  margin-top: 2rem;
-}
-
 .list {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 1rem;
   margin-top: 2rem;
   margin: auto;
   background: rgba(240, 248, 255, 0.5);
   border-radius: .5rem;
+  position: absolute;
+  top: 80px;
 }
 
+h1 {
+  color: rgb(46, 46, 46);
+  margin: 1.5rem auto;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+
 #text-input {
+  font-size: 1.25rem;
   padding: .5rem;
   border-radius: .5rem;
   border: none;
-  font-size: 1.25rem;
   font-weight: 500;
+  margin-right: auto;
 }
 
 #button {
+  font-size: 1.25rem;
   padding: .5rem;
   border-radius: .5rem;
   border: none;
   background-color: rgb(43, 167, 43);
   color: white;
   font-weight: 400;
-  font-size: 1.25rem;
   margin-left: .5rem;
 }
 
 #tasks {
-  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: space-around;
   margin-top: 1.5rem;
 }
 
@@ -58,17 +67,20 @@ ul {
   font-size: 1rem;
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 ul > li {
   width: 100%;
   font-size: 1.25rem;
-  padding: .5rem 0;
+  padding: 0;
+  margin-bottom: 1.5rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   color: black;
   font-weight: 500;
+  border-bottom: 1px solid gray;
+  word-wrap: break-word;
 }
 
 li > input {
@@ -78,8 +90,7 @@ li > input {
 }
 
 li > label {
-  position: relative;
-  left: 0;
+  margin-right: auto;
 }
 
 #button-list {
@@ -87,11 +98,10 @@ li > label {
   margin-left: 1rem;
   border-radius: .5rem;
   border: none;
-  position: relative;
-  right: 0;
   background-color: rgb(255, 75, 75);
   color: white;
   font-weight: 300;
+  text-align: end;
 }
 
 :checked + label {
@@ -105,14 +115,18 @@ li > label {
     justify-content: space-between;
   }
   .list {
-    margin: auto 1rem;
+    width: 280px;
+    margin: auto .5rem;
     padding: .5rem;
   }
   #text-input {
     width: 150px;
+    font-size: 1rem;
+    margin-right: 10px;
   }
   #button {
     margin: 0;
+    font-size: 1rem;
   }
   li {
     max-width: 350px;
