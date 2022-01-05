@@ -25,10 +25,10 @@ Desafio feito no Bootcamp da Digital Inovation One.
 
 ## Projeto
 
-Você pode acessar o projeto através <a href="" target="_blank">desse link</a>
+Você pode acessar o projeto através <a href="https://to-do-list-william-programador.netlify.app/" target="_blank">desse link</a>
 
 <br>
 
 ## Licença
 
-A licença desse projeto pode ser acessada <a>aqui</a>
+A licença desse projeto pode ser acessada <a href="" target="_blank">aqui</a>
